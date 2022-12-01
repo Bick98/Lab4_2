@@ -1,0 +1,33 @@
+.tableBlock{
+    margin: 10px;
+   }
+ .table{
+     display: inline;
+     margin: 0 auto;
+     max-width:300px;
+     table-layout: fixed;
+     margin-bottom: 20px;
+}
+ .table tr th:first-child {
+	border-radius: 20px 0 0 0;
+}
+.table tr th:last-child {
+	border-radius: 0 20px 0 0;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: sandybrown;
+    border: 2px solid black;
+}
+.table td{
+    padding: 5px 10px;
+    border: 2px solid black;
+    text-align: left;
+}
+.table tbody tr:nth-child(odd){
+    background: wheat;
+}
+.table tbody tr:nth-child(even){
+    background: whitesmoke;
+}
